@@ -45,3 +45,5 @@ decodeMorse = function(morseCode) {
             .join(""))
           .join(" ")
 }
+
+decodeMorse('.... . -.--   .--- ..- -.. .') // "HEY JUDE"
